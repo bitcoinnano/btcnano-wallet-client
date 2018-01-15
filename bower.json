@@ -1,0 +1,27 @@
+{
+  "name": "btcnano-wallet-client",
+  "main": "index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bitcoinnano/btcnano-wallet-client",
+  "authors": ["Btcnano Inc"],
+  "description": "Client for btcnano-wallet-service",
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "copay",
+    "multisig",
+    "wallet",
+    "client",
+    "bitcore"
+  ],
+  "ignore": [
+    "**/.*",
+    "lib",
+    "node_modules",
+    "Gruntfile.js",
+    "Makefile",
+    "index.js",
+    "test",
+    "Makefile"
+  ]
+}
