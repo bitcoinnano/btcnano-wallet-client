@@ -4,7 +4,7 @@
 [![Build Status](https://img.shields.io/travis/bitcoinnano/btcnano-wallet-client.svg?branch=master&style=flat-square)](https://travis-ci.org/bitcoinnano/btcnano-wallet-client)
 [![Coverage Status](https://coveralls.io/repos/bitcoinnano/btcnano-wallet-client/badge.svg)](https://coveralls.io/r/bitcoinnano/btcnano-wallet-client)
 
-The *official* client library for [bitcore-wallet-service] (https://github.com/bitcoinnano/btcnano-wallet-service).
+The *official* client library for [btcnano-wallet-service] (https://github.com/bitcoinnano/btcnano-wallet-service).
 
 ## Description
 
@@ -21,7 +21,7 @@ You can start using btcnano-wallet-client in any of these two ways:
 
 ## Example
 
-Start your own local [Bitcore wallet service](https://github.com/bitcoinnano/btcnano-wallet-service) instance. In this example we assume you have `btcnano-wallet-service` running on your `localhost:3232`.
+Start your own local [Btcnano wallet service](https://github.com/bitcoinnano/btcnano-wallet-service) instance. In this example we assume you have `btcnano-wallet-service` running on your `localhost:3232`.
 
 Then create two files `irene.js` and `tomas.js` with the content below:
 
