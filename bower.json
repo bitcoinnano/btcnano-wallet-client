@@ -1,18 +1,17 @@
 {
   "name": "btcnano-wallet-client",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/bitcoinnano/btcnano-wallet-client",
-  "authors": ["Btcnano Inc"],
+  "authors": ["BtcNano Inc"],
   "description": "Client for btcnano-wallet-service",
   "keywords": [
-    "btcnano",
-    "bitcoin",
-    "copay",
+    "Nano",
+    "copay-btcnano",
     "multisig",
     "wallet",
     "client",
-    "bitcore"
+    "btcnano"
   ],
   "ignore": [
     "**/.*",

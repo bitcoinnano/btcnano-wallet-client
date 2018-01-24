@@ -2,16 +2,16 @@
 
 BIN_PATH:=node_modules/.bin/
 
-all:	btcnano-wallet-client.min.js
+all:	bitcore-wallet-client.min.js
 
 clean:
-	rm btcnano-wallet-client.js
-	rm btcnano-wallet-client.min.js
+	rm bitcore-wallet-client.js
+	rm bitcore-wallet-client.min.js
 
-btcnano-wallet-client.js: index.js lib/*.js
+bitcore-wallet-client.js: index.js lib/*.js
 	${BIN_PATH}browserify $< > $@
 
-btcnano-wallet-client.min.js: btcnano-wallet-client.js
+bitcore-wallet-client.min.js: bitcore-wallet-client.js
 	uglify  -s $<  -o $@
 
 cover:

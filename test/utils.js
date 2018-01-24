@@ -4,7 +4,7 @@ var _ = require('lodash');
 var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
-var Bitcore = require('bitcore-lib');
+var Bitcore = require('bitcore-lib-dash');
 
 var Utils = require('../lib/common/utils');
 
@@ -191,14 +191,14 @@ describe('Utils', function() {
 
   describe('#getProposalHash', function() {
     it('should compute hash for old style proposals', function() {
-      var hash = Utils.getProposalHash('msj42CCGruhRsFrGATiUuh25dtxYtnpbTx', 1234, 'the message');
-      hash.should.equal('msj42CCGruhRsFrGATiUuh25dtxYtnpbTx|1234|the message|');
+      var hash = Utils.getProposalHash('yie4Ubd2ieCdzqwNyAc8QRutfri3E9ChTm', 1234, 'the message');
+      hash.should.equal('yie4Ubd2ieCdzqwNyAc8QRutfri3E9ChTm|1234|the message|');
     });
     it('should compute hash for arbitrary proposal', function() {
       var header1 = {
         type: 'simple',
         version: '1.0',
-        toAddress: 'msj42CCGruhRsFrGATiUuh25dtxYtnpbTx',
+        toAddress: 'yie4Ubd2ieCdzqwNyAc8QRutfri3E9ChTm',
         amount: 1234,
         message: {
           one: 'one',
@@ -207,7 +207,7 @@ describe('Utils', function() {
       };
 
       var header2 = {
-        toAddress: 'msj42CCGruhRsFrGATiUuh25dtxYtnpbTx',
+        toAddress: 'yie4Ubd2ieCdzqwNyAc8QRutfri3E9ChTm',
         type: 'simple',
         version: '1.0',
         message: {
