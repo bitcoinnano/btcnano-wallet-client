@@ -2,7 +2,7 @@
   "name": "btcnano-wallet-client",
   "description": "Client for btcnano-wallet-service",
   "author": "Btcnano Inc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "keywords": [
     "btcnano",
